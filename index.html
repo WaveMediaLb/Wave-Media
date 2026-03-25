@@ -35,12 +35,12 @@
 
     .tag {
       display: inline-block;
-      font-size: 11px; font-weight: 700;
+      font-size: 13px; font-weight: 700;
       letter-spacing: 3px; text-transform: uppercase;
       color: var(--sky); margin-bottom: 12px;
     }
-    .sec-title { font-size: clamp(2rem, 5vw, 3.2rem); margin-bottom: 16px; }
-    .sec-sub { font-size: 1rem; color: var(--slate); max-width: 580px; line-height: 1.75; }
+    .sec-title { font-size: clamp(2.4rem, 5vw, 4rem); margin-bottom: 16px; }
+    .sec-sub { font-size: 1.15rem; color: var(--slate); max-width: 580px; line-height: 1.75; }
 
     /* ===== BUTTONS ===== */
     .btn {
@@ -73,11 +73,11 @@
       box-shadow: 0 4px 30px rgba(0,0,0,0.3);
     }
     .nl { display: flex; align-items: center; gap: 12px; }
-    .nl-text { font-family: var(--fh); font-weight: 900; font-size: 1.35rem; color: var(--white); letter-spacing: 1px; transition: font-size var(--ease); }
-    #nav.scrolled .nl-text { font-size: 1.15rem; }
+    .nl-text { font-family: var(--fh); font-weight: 900; font-size: 1.6rem; color: var(--white); letter-spacing: 1px; transition: font-size var(--ease); }
+    #nav.scrolled .nl-text { font-size: 1.35rem; }
 
     .nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
-    .nav-links a { color: rgba(255,255,255,0.82); font-size: 0.88rem; font-weight: 500; letter-spacing: 0.3px; transition: color var(--ease); position: relative; }
+    .nav-links a { color: rgba(255,255,255,0.82); font-size: 1.05rem; font-weight: 500; letter-spacing: 0.3px; transition: color var(--ease); position: relative; }
     .nav-links a::after { content:''; position:absolute; bottom:-4px; left:0; width:0; height:2px; background:var(--sky); transition: width var(--ease); border-radius:2px; }
     .nav-links a:hover { color: var(--white); }
     .nav-links a:hover::after { width:100%; }
@@ -178,8 +178,8 @@
     }
     .av-j { background:linear-gradient(135deg,var(--ocean),var(--sky)); }
     .av-c { background:linear-gradient(135deg,#7c3aed,#a855f7); }
-    .fn { font-family:var(--fh); font-weight:800; font-size:1.05rem; margin-bottom:3px; }
-    .fr { font-size:0.77rem; color:var(--slate); font-weight:500; letter-spacing:0.5px; }
+    .fn { font-family:var(--fh); font-weight:800; font-size:1.25rem; margin-bottom:3px; }
+    .fr { font-size:0.95rem; color:var(--slate); font-weight:500; letter-spacing:0.5px; }
     .quote-card {
       grid-column:span 2; background:var(--white); border-radius:var(--r);
       padding:22px 24px; box-shadow:0 4px 24px rgba(26,111,196,0.08);
@@ -204,8 +204,8 @@
       border-radius:12px; display:flex; align-items:center; justify-content:center;
       font-size:1.5rem; margin-bottom:20px;
     }
-    .st { font-family:var(--fh); font-weight:800; font-size:1.25rem; color:var(--white); margin-bottom:10px; }
-    .sd { color:rgba(255,255,255,0.58); font-size:0.93rem; line-height:1.7; }
+    .st { font-family:var(--fh); font-weight:800; font-size:1.5rem; color:var(--white); margin-bottom:10px; }
+    .sd { color:rgba(255,255,255,0.58); font-size:1.08rem; line-height:1.7; }
 
     /* ===== PACKAGES ===== */
     #packages { background:var(--white); padding:96px 0; }
@@ -231,13 +231,13 @@
       font-size:0.72rem; font-weight:800; letter-spacing:1px;
       text-transform:uppercase; white-space:nowrap;
     }
-    .pn { font-family:var(--fh); font-weight:900; font-size:1.4rem; margin-bottom:6px; }
-    .pp { font-family:var(--fh); font-weight:900; font-size:2.8rem; line-height:1; margin-bottom:4px; }
-    .pp span { font-size:1.1rem; font-weight:600; opacity:0.7; }
-    .pd { font-size:0.87rem; opacity:0.65; margin-bottom:24px; padding-bottom:24px; border-bottom:1px solid rgba(0,0,0,0.08); }
+    .pn { font-family:var(--fh); font-weight:900; font-size:1.7rem; margin-bottom:6px; }
+    .pp { font-family:var(--fh); font-weight:900; font-size:3.2rem; line-height:1; margin-bottom:4px; }
+    .pp span { font-size:1.3rem; font-weight:600; opacity:0.7; }
+    .pd { font-size:1rem; opacity:0.65; margin-bottom:24px; padding-bottom:24px; border-bottom:1px solid rgba(0,0,0,0.08); }
     .pc.pop .pd { border-bottom-color:rgba(255,255,255,0.2); }
     .fl { list-style:none; margin-bottom:28px; }
-    .fl li { display:flex; gap:10px; margin-bottom:12px; font-size:0.88rem; line-height:1.5; align-items:flex-start; }
+    .fl li { display:flex; gap:10px; margin-bottom:12px; font-size:1.05rem; line-height:1.5; align-items:flex-start; }
     .ck { flex-shrink:0; margin-top:1px; color:var(--ocean); font-size:0.9rem; }
     .pc.pop .fl li { color:rgba(255,255,255,0.9); }
     .pc.pop .ck { color:rgba(255,255,255,0.85); }
@@ -262,18 +262,18 @@
     }
     .wc:hover { background:rgba(55,138,221,0.1); border-color:rgba(55,138,221,0.35); transform:translateY(-5px); }
     .wi { font-size:2.4rem; margin-bottom:14px; display:block; }
-    .wv { font-family:var(--fh); font-weight:900; font-size:1.3rem; color:var(--white); margin-bottom:8px; line-height:1.2; }
-    .wl { font-size:0.88rem; color:rgba(255,255,255,0.55); }
+    .wv { font-family:var(--fh); font-weight:900; font-size:1.5rem; color:var(--white); margin-bottom:8px; line-height:1.2; }
+    .wl { font-size:1.05rem; color:rgba(255,255,255,0.55); }
 
     /* ===== CONTACT ===== */
     #contact { background:var(--navy); padding:120px 0; text-align:center; }
     .ch {
       font-family:var(--fh); font-weight:900;
-      font-size: clamp(2.4rem,6vw,5rem);
+      font-size: clamp(3rem,6vw,6rem);
       color:var(--white); margin-bottom:16px; line-height:1.1;
     }
     .ch em { color:var(--sky); font-style:normal; }
-    .cs { color:rgba(255,255,255,0.55); font-size:1rem; margin-bottom:44px; max-width:480px; margin-left:auto; margin-right:auto; }
+    .cs { color:rgba(255,255,255,0.55); font-size:1.2rem; margin-bottom:44px; max-width:480px; margin-left:auto; margin-right:auto; }
     .cbtns { display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap; margin-bottom:36px; }
     .chandl { color:rgba(255,255,255,0.45); font-size:0.88rem; letter-spacing:0.5px; }
     .chandl a { color:var(--sky); transition:color var(--ease); }
